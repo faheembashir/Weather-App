@@ -1,0 +1,47 @@
+@media screen and (max-width:400px) {
+    .input{
+        border-radius: 1rem;
+       width: 50vw;
+       
+    }
+    .search-Btn{
+        flex-wrap: wrap;
+    }
+    .search::before{
+        content: "Search";
+    }
+    .search{
+        width: 100%;
+        border-radius: 1rem;
+        background-color: green;
+        font-size: 2rem;
+        color: white;
+    }
+    .search i{
+        display: none;
+    }
+    .details{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:210px){
+    body{
+
+        font-size: 1rem;
+    }
+    .card{
+        text-align: left;
+    }
+    .weather .city{
+        font-size: 1rem;
+    }
+
+    .search i{
+        display: block;
+    }
+    .search::before{
+        content: "";
+    }
+}
