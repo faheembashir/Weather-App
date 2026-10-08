@@ -15,7 +15,6 @@ body{
     max-width:  400px;
     border: 2px solid rgb(46, 216, 12);
     margin-top: 1rem;
-    
     background: linear-gradient(135deg, #00feba, #5b548a);
     border-radius: 1rem;
     text-align: center;
@@ -84,6 +83,6 @@ body{
 }
 
 footer{
-    margin-top: 10px;
+    margin-top: 14px;
     font-size: 1.2rem;
 }
